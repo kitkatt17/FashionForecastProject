@@ -1,0 +1,54 @@
+.search-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.clothing-container {
+    height: 30vh;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.card {
+    border: 5px solid black;
+}
+
+.card img {
+    height: 200px;
+    background-size: cover;
+}
+
+.card-text {
+    font-weight: bolder;
+}
+
+form input {
+    width: 50vw;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+body {
+    background-image: url(../image/mountains-gf72f61f9f_640.png);
+    background-size: cover;
+}
+
+.weather-card {
+    user-select: none;
+}
+
+.weather-card:hover{
+    transform: scale(1.1);
+}
+
+.weather-desc {
+    text-transform: capitalize;
+}
+   
